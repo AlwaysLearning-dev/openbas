@@ -5,7 +5,7 @@ services:
     image: openbas/platform:1.9.0
     environment:
       SERVER_SSL_KEY-STORE-PASSWORD: ${KEYSTORE_PASSWORD}
-      OPENBAS_BASE-URL: http://localhost:8080
+      OPENBAS_BASE-URL: http://192.168.56.10:8080
       OPENBAS_AUTH-LOCAL-ENABLE: true
 
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/openbas
